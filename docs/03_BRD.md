@@ -1,9 +1,9 @@
 # Business Requirements Document (BRD) – Legal Services Digital Platform
 
-**Version:** 1.0
-**Date:** 2026-05-17
-**Author:** Mpumelelo Theophilas Nxazonke
-**Approved by:** Client
+| **Version:** 1.0 |
+| **Date:** 2026-05-17 |
+| **Author:** Mpumelelo Theophilas Nxazonke |
+| **Approved by:** Client |
 
 ## 1. Introduction
 
