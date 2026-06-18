@@ -1,8 +1,11 @@
 # Software Requirements Specification (SRS) / Functional Requirements Specification (FRS)
 
 **Version:** 1.0<br>
-**Prepared by:** Mpumelelo Theophilas Nxazonke<br>
-**Date:** 2026-05-17
+**Project:** Legal Services Digital Platform<br>
+**Last Updated:** 2026-05-17<br>
+**Author:** Mpumelelo Theophilas Nxazonke<br>
+**Approved by:** Client<br>
+**Status:** Complete
 
 ## 1. Introduction
 
@@ -138,7 +141,6 @@ Refer to:
 * [Container Diagram](../diagrams/02_Container_Diagram.png)
 * [Component Diagram](../diagrams/03_Component_Diagram.png)
 * [Sequence Diagram](../diagrams/05_Sequence_Diagram.png)
-* [Data Flow Diagram](../diagrams/07_Data_Flow_Diagram.png)
 
 ## 5. External Integrations
 
@@ -208,35 +210,35 @@ SMTP-authenticated delivery and PHPMailer integration were investigated during d
 
 ## 7. Validation Rules
 
-### Name
+### 7.1. Name
 
 * Required
 * Trim whitespace
 * Sanitize input
 
-### Email
+### 7.2. Email
 
 * Required
 * Must conform to valid email format
-* Sanitised before processing
+* Sanitized before processing
 
-### Phone
+### 7.3. Phone
 
 * Required
 * Text accepted
-* Sanitised before processing
+* Sanitized before processing
 
-### Service
+### 7.4. Service
 
 * Required
 * Must contain selected service value
 
-### Message
+### 7.5. Message
 
 * Required
 * Cannot be empty
 
-### Form Submission
+### 7.6. Form Submission
 
 Validation must occur before email generation.
 

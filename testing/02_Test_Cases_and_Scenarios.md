@@ -1,9 +1,9 @@
 # Test Cases & Scenarios
 
-**Project:** Legal Services Digital Platform<br>
 **Version:** 1.0<br>
-**Author:** Mpumelelo Theophilas Nxazonke<br>
+**Project:** Legal Services Digital Platform<br>
 **Last Updated:** 2026-06-11<br>
+**Author:** Mpumelelo Theophilas Nxazonke<br>
 **Status:** Complete
 
 ## 1. Overview

@@ -1,9 +1,11 @@
-# Business Requirements Document (BRD) – Legal Services Digital Platform
+# Business Requirements Document (BRD)
 
-**Version:** 1.0 <br/>
-**Date:** 2026-05-17<br/>
-**Author:** Mpumelelo Theophilas Nxazonke<br/>
-**Approved by:** Client 
+**Version:** 1.0<br>
+**Project:** Legal Services Digital Platform<br>
+**Last Updated:** 2026-06-17<br>
+**Author:** Mpumelelo Theophilas Nxazonke<br>
+**Approved by:** Client<br>
+**Status:** Complete
 
 ## 1. Introduction
 
@@ -53,18 +55,18 @@ The firm required a bespoke platform capable of:
 
 ## 4. Business Requirements
 
-| ID     | Requirement                                   | Priority | Acceptance Criteria                                                |
-| ------ | --------------------------------------------- | -------- | ------------------------------------------------------------------ |
-| BR-001 | Professional public website presence          | High     | Firm information accessible online                                 |
-| BR-002 | Responsive mobile-friendly experience         | High     | Website functions correctly on desktop, tablet, and mobile         |
-| BR-003 | Display legal services offered by the firm    | High     | Services pages accurately communicate offerings                    |
-| BR-004 | Present attorney and firm profile information | High     | Attorney profiles and firm overview available                      |
-| BR-005 | Provide contact and enquiry functionality     | High     | Visitors can submit enquiries and access contact details           |
-| BR-006 | WhatsApp integration                          | Medium   | Visitors can initiate WhatsApp communication                       |
-| BR-007 | Google Maps integration                       | Medium   | Visitors can locate office location via maps                       |
-| BR-008 | Search engine readiness                       | High     | Metadata and indexing structures implemented                       |
-| BR-009 | Professional visual branding                  | High     | Website aligns with firm branding and professional image           |
-| BR-010 | Production deployment readiness               | High     | Platform prepared for deployment to production hosting environment |
+| ID | Requirement | Priority | Acceptance Criteria |
+| --- | ---------- | -------- | ------------------- |
+| BR-001 | Professional public website presence | High | Firm information accessible online |
+| BR-002 | Responsive mobile-friendly experience | High | Website functions correctly on desktop, tablet, and mobile |
+| BR-003 | Display legal services offered by the firm | High | Services pages accurately communicate offerings |
+| BR-004 | Present attorney and firm profile information | High | Attorney profiles and firm overview available |
+| BR-005 | Provide contact and enquiry functionality | High | Visitors can submit enquiries and access contact details |
+| BR-006 | WhatsApp integration | Medium | Visitors can initiate WhatsApp communication |
+| BR-007 | Google Maps integration | Medium | Visitors can locate office location via maps |
+| BR-008 | Search engine readiness | High | Metadata and indexing structures implemented |
+| BR-009 | Professional visual branding | High | Website aligns with firm branding and professional image |
+| BR-010 | Production deployment readiness | High | Platform prepared for deployment to production hosting environment |
 
 ## 5. Success Metrics
 
@@ -80,19 +82,19 @@ The project will be considered successful if:
 
 ## 6. Risks & Mitigations
 
-| Risk                                | Impact | Mitigation Strategy                               |
-| ----------------------------------- | ------ | ------------------------------------------------- |
-| Delayed content delivery            | Medium | Use placeholder content and replace before launch |
-| Missing attorney photographs        | Medium | Use temporary placeholders during development     |
-| Late feedback cycles                | Medium | Deploy to staging for iterative review            |
-| DNS configuration issues            | Medium | Conduct DNS readiness review prior to launch      |
-| Email deliverability issues         | High   | Investigate SMTP, SPF, DKIM, and DMARC readiness  |
-| Production deployment delays        | Medium | Prepare deployment checklist and launch plan      |
-| Browser/device compatibility issues | Medium | Perform responsive and cross-browser testing      |
+| Risk | Impact | Mitigation Strategy |
+| ---- | ------ | ------------------- |
+| Delayed content delivery | Medium | Use placeholder content and replace before launch |
+| Missing attorney photographs | Medium | Use temporary placeholders during development |
+| Late feedback cycles | Medium | Deploy to staging for iterative review |
+| DNS configuration issues | Medium | Conduct DNS readiness review prior to launch |
+| Email deliverability issues | High | Investigate SMTP, SPF, DKIM, and DMARC readiness |
+| Production deployment delays | Medium | Prepare deployment checklist and launch plan |
+| Browser/device compatibility issues | Medium | Perform responsive and cross-browser testing |
 
 ## 7. Appendices
 
-### Related Documentation
+### 7.1. Related Documentation
 
 * [Product Requirements Document (PRD)](./05_PRD.md)
 * [Software Requirements Specification (SRS)](./06_SRS_FRS.md)
@@ -106,7 +108,7 @@ The project will be considered successful if:
 * [System Architecture Diagrams](../diagrams/)
 * [Lighthouse Audit Reports](../testing/Lighthouse_Results.md)
 
-### Supporting Artifacts
+### 7.2. Supporting Artifacts
 
 * Wireframes and design references
 * Staging deployment screenshots
